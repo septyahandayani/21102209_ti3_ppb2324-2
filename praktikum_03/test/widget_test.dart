@@ -7,7 +7,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 import 'package:praktikum_03/main.dart';
 
 void main() {
@@ -21,7 +24,11 @@ void main() {
 
     // Tap the '+' icon and trigger a frame.
     await tester.tap(find.byIcon(Icons.add));
+<<<<<<< HEAD
     await tester.pump();
+=======
+    await tester.pump(); // Menunggu widget dirender
+>>>>>>> master
 
     // Verify that our counter has incremented.
     expect(find.text('0'), findsNothing);
