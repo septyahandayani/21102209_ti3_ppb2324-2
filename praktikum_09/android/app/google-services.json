@@ -12,7 +12,20 @@
           "package_name": "com.example.praktikum_09"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "877900563269-ai0ud1slnq1topbpgvtsf5aa63nru01k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.praktikum_09",
+            "certificate_hash": "2bcec51adf231446f96cdfe3e58e1011ac90ee45"
+          }
+        },
+        {
+          "client_id": "877900563269-q2s3so485ooeduc8o8skdp9bmpk6jlh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBmVbfq37y3rOzyaMo-wdyDjaJrb7zrKDI"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877900563269-q2s3so485ooeduc8o8skdp9bmpk6jlh4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "877900563269-nneqj87sh9rl6h00e8tfv0ogfmpnmjst.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.praktikum09"
+              }
+            }
+          ]
         }
       }
     }
